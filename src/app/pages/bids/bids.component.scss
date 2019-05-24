@@ -1,0 +1,51 @@
+
+.content table {
+    background: #fff none repeat scroll 0 0;
+    border-color: #c1c1c1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0px 0px 1px;
+    width: 100%;
+}
+
+
+.content table th {
+    border-bottom: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    color: #000;
+    font-family: Old Standard TT;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 10px;
+    text-align: center
+}
+
+.content table td {
+    border-bottom: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    color: #000;
+    font-family: Old Standard TT;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 10px;
+    text-align: center
+}
+
+.pro_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bid_btn a {
+    background: #fbb710;
+    color: white;
+    height: 30px;
+    width: 30%;
+    text-align: center;
+    display: block;
+    padding: 6px 3px;
+    font-size: 14px;
+}
+
+

@@ -1,0 +1,66 @@
+.fa {
+    float: right;
+}
+
+.nested-menu {
+    .list-group-item {
+        cursor: pointer;
+    }
+    .nested {
+        list-style-type: none;
+    }
+    ul.submenu {
+        display: none;
+        height: 0;
+    }
+    & .expand {
+        ul.submenu {
+            display: block;
+            list-style-type: none;
+            height: auto;
+            li {
+                a {
+                    color: black;
+                    padding: 10px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.amado-btn {
+    display: inline-block;
+    min-width: 160px;
+    height: 55px;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 0 7px;
+    font-size: 18px;
+    line-height: 56px;
+    background-color: #fbb710;
+    font-weight: 400;
+    &.active,
+    &:hover,
+    &:focus {
+        font-size: 18px;
+        color: white;
+        background-color: black;
+    }
+}
+
+.main-content-wrapper .header-area .logo {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.theme_btn {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
